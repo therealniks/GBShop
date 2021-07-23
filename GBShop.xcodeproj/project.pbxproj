@@ -99,13 +99,10 @@
 		80BD982F26A4703200443899 /* GBShop */ = {
 			isa = PBXGroup;
 			children = (
-				80BD983026A4703200443899 /* AppDelegate.swift */,
-				80BD983226A4703200443899 /* SceneDelegate.swift */,
-				80BD983426A4703200443899 /* ViewController.swift */,
-				80BD983626A4703200443899 /* Main.storyboard */,
-				80BD983926A4703800443899 /* Assets.xcassets */,
-				80BD983B26A4703800443899 /* LaunchScreen.storyboard */,
-				80BD983E26A4703800443899 /* Info.plist */,
+				80C2AAF826AAC37900805D5F /* App */,
+				80C2AAF926AAC3CE00805D5F /* Core */,
+				80C2AAFA26AAC3D300805D5F /* Resources */,
+				80C2AAFB26AAC3DD00805D5F /* Environments */,
 			);
 			path = GBShop;
 			sourceTree = "<group>";
@@ -126,6 +123,81 @@
 				80BD985426A4703900443899 /* Info.plist */,
 			);
 			path = GBShopUITests;
+			sourceTree = "<group>";
+		};
+		80C2AAF426AAC32D00805D5F /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		80C2AAF526AAC34100805D5F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		80C2AAF626AAC34700805D5F /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		80C2AAF726AAC34E00805D5F /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				80BD983026A4703200443899 /* AppDelegate.swift */,
+				80BD983226A4703200443899 /* SceneDelegate.swift */,
+				80BD983626A4703200443899 /* Main.storyboard */,
+				80BD983B26A4703800443899 /* LaunchScreen.storyboard */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		80C2AAF826AAC37900805D5F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				80C2AAF426AAC32D00805D5F /* BusinessLogic */,
+				80C2AAFC26AAC46200805D5F /* Controllers */,
+				80C2AAF526AAC34100805D5F /* Entity */,
+				80C2AAF626AAC34700805D5F /* Assembly */,
+				80C2AAF726AAC34E00805D5F /* Flows */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		80C2AAF926AAC3CE00805D5F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		80C2AAFA26AAC3D300805D5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80BD983926A4703800443899 /* Assets.xcassets */,
+				80BD983E26A4703800443899 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80C2AAFB26AAC3DD00805D5F /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		80C2AAFC26AAC46200805D5F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80BD983426A4703200443899 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
