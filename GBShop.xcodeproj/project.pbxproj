@@ -11,6 +11,7 @@
 		8025E3BE26B6BBFA0012429A /* AbstractErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3BD26B6BBFA0012429A /* AbstractErrorParser.swift */; };
 		8025E3C026B6BCAB0012429A /* ErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3BF26B6BCAB0012429A /* ErrorParser.swift */; };
 		8025E3C226B6BD600012429A /* CustomDecodableSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3C126B6BD600012429A /* CustomDecodableSerializer.swift */; };
+		8025E3C426B6C1890012429A /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3C326B6C1890012429A /* DataRequest.swift */; };
 		80BD983126A4703200443899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983026A4703200443899 /* AppDelegate.swift */; };
 		80BD983326A4703200443899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983226A4703200443899 /* SceneDelegate.swift */; };
 		80BD983526A4703200443899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983426A4703200443899 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		8025E3BD26B6BBFA0012429A /* AbstractErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractErrorParser.swift; sourceTree = "<group>"; };
 		8025E3BF26B6BCAB0012429A /* ErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorParser.swift; sourceTree = "<group>"; };
 		8025E3C126B6BD600012429A /* CustomDecodableSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecodableSerializer.swift; sourceTree = "<group>"; };
+		8025E3C326B6C1890012429A /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
 		80BD982D26A4703200443899 /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BD983026A4703200443899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80BD983226A4703200443899 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				8025E3BD26B6BBFA0012429A /* AbstractErrorParser.swift */,
 				8025E3BF26B6BCAB0012429A /* ErrorParser.swift */,
 				8025E3C126B6BD600012429A /* CustomDecodableSerializer.swift */,
+				8025E3C326B6C1890012429A /* DataRequest.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8025E3C426B6C1890012429A /* DataRequest.swift in Sources */,
 				8025E3C026B6BCAB0012429A /* ErrorParser.swift in Sources */,
 				8025E3C226B6BD600012429A /* CustomDecodableSerializer.swift in Sources */,
 				80BD983526A4703200443899 /* ViewController.swift in Sources */,
