@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		53623F73EB522219625288D3 /* Pods_GBShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42337447AE91B3968A424CD9 /* Pods_GBShopTests.framework */; };
+		8025E3BE26B6BBFA0012429A /* AbstractErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3BD26B6BBFA0012429A /* AbstractErrorParser.swift */; };
+		8025E3C026B6BCAB0012429A /* ErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3BF26B6BCAB0012429A /* ErrorParser.swift */; };
+		8025E3C226B6BD600012429A /* CustomDecodableSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3C126B6BD600012429A /* CustomDecodableSerializer.swift */; };
 		80BD983126A4703200443899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983026A4703200443899 /* AppDelegate.swift */; };
 		80BD983326A4703200443899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983226A4703200443899 /* SceneDelegate.swift */; };
 		80BD983526A4703200443899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983426A4703200443899 /* ViewController.swift */; };
@@ -42,6 +45,9 @@
 		42337447AE91B3968A424CD9 /* Pods_GBShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FB5A1559CAB295E4CAC68B /* Pods-GBShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBShop.debug.xcconfig"; path = "Target Support Files/Pods-GBShop/Pods-GBShop.debug.xcconfig"; sourceTree = "<group>"; };
 		6B64C2A786DED685809B2FD2 /* Pods-GBShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBShopTests.release.xcconfig"; path = "Target Support Files/Pods-GBShopTests/Pods-GBShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		8025E3BD26B6BBFA0012429A /* AbstractErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractErrorParser.swift; sourceTree = "<group>"; };
+		8025E3BF26B6BCAB0012429A /* ErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorParser.swift; sourceTree = "<group>"; };
+		8025E3C126B6BD600012429A /* CustomDecodableSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecodableSerializer.swift; sourceTree = "<group>"; };
 		80BD982D26A4703200443899 /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BD983026A4703200443899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80BD983226A4703200443899 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 		8079A6FB26B6BAC8004E048E /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				8025E3BD26B6BBFA0012429A /* AbstractErrorParser.swift */,
+				8025E3BF26B6BCAB0012429A /* ErrorParser.swift */,
+				8025E3C126B6BD600012429A /* CustomDecodableSerializer.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -245,7 +254,6 @@
 				AC30DA4EFDC5D2229898C4AC /* Pods-GBShopTests.debug.xcconfig */,
 				6B64C2A786DED685809B2FD2 /* Pods-GBShopTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -487,9 +495,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8025E3C026B6BCAB0012429A /* ErrorParser.swift in Sources */,
+				8025E3C226B6BD600012429A /* CustomDecodableSerializer.swift in Sources */,
 				80BD983526A4703200443899 /* ViewController.swift in Sources */,
 				80BD983126A4703200443899 /* AppDelegate.swift in Sources */,
 				80BD983326A4703200443899 /* SceneDelegate.swift in Sources */,
+				8025E3BE26B6BBFA0012429A /* AbstractErrorParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
