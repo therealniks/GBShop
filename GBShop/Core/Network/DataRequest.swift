@@ -27,7 +27,7 @@ extension AbstractRequestFactory {
         completion: @escaping (AFDataResponse<T>) -> Void) -> DataRequest {
         return sessionManager
             .request(request)
-            .responseCodable(errorParser: errorParser, queue: queue, completion: completion)
+            .responseCodable(errorParser: errorParser, queue: queue, completionHandler: completion)
     }
 }
 
