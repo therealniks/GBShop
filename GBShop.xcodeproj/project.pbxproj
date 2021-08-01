@@ -19,6 +19,8 @@
 		8025E3CF26B6C4BD0012429A /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3CE26B6C4BD0012429A /* Auth.swift */; };
 		8025E3D126B6C8130012429A /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3D026B6C8130012429A /* RequestFactory.swift */; };
 		8025E3D326B6CA780012429A /* LogoutResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3D226B6CA780012429A /* LogoutResult.swift */; };
+		8025E3D526B6CAFB0012429A /* ChangeUserDataResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3D426B6CAFB0012429A /* ChangeUserDataResult.swift */; };
+		8025E3D726B6CB2F0012429A /* RegisterUserResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025E3D626B6CB2F0012429A /* RegisterUserResult.swift */; };
 		80BD983126A4703200443899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983026A4703200443899 /* AppDelegate.swift */; };
 		80BD983326A4703200443899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983226A4703200443899 /* SceneDelegate.swift */; };
 		80BD983526A4703200443899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983426A4703200443899 /* ViewController.swift */; };
@@ -64,6 +66,8 @@
 		8025E3CE26B6C4BD0012429A /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		8025E3D026B6C8130012429A /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
 		8025E3D226B6CA780012429A /* LogoutResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutResult.swift; sourceTree = "<group>"; };
+		8025E3D426B6CAFB0012429A /* ChangeUserDataResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserDataResult.swift; sourceTree = "<group>"; };
+		8025E3D626B6CB2F0012429A /* RegisterUserResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserResult.swift; sourceTree = "<group>"; };
 		80BD982D26A4703200443899 /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BD983026A4703200443899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80BD983226A4703200443899 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -211,6 +215,8 @@
 				8025E3C726B6C3EE0012429A /* LoginResult.swift */,
 				8025E3C926B6C4150012429A /* User.swift */,
 				8025E3D226B6CA780012429A /* LogoutResult.swift */,
+				8025E3D426B6CAFB0012429A /* ChangeUserDataResult.swift */,
+				8025E3D626B6CB2F0012429A /* RegisterUserResult.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -529,9 +535,11 @@
 			files = (
 				8025E3CD26B6C4830012429A /* AuthRequestFactory.swift in Sources */,
 				8025E3C626B6C3260012429A /* RequestRouter.swift in Sources */,
+				8025E3D526B6CAFB0012429A /* ChangeUserDataResult.swift in Sources */,
 				8025E3C426B6C1890012429A /* DataRequest.swift in Sources */,
 				8025E3D126B6C8130012429A /* RequestFactory.swift in Sources */,
 				8025E3C026B6BCAB0012429A /* ErrorParser.swift in Sources */,
+				8025E3D726B6CB2F0012429A /* RegisterUserResult.swift in Sources */,
 				8025E3C226B6BD600012429A /* CustomDecodableSerializer.swift in Sources */,
 				80BD983526A4703200443899 /* ViewController.swift in Sources */,
 				80BD983126A4703200443899 /* AppDelegate.swift in Sources */,
