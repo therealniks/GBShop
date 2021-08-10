@@ -174,7 +174,6 @@
 		80BD982F26A4703200443899 /* GBShop */ = {
 			isa = PBXGroup;
 			children = (
-				80BD983E26A4703800443899 /* Info.plist */,
 				80C2AAF826AAC37900805D5F /* App */,
 				80C2AAF926AAC3CE00805D5F /* Core */,
 				80C2AAFA26AAC3D300805D5F /* Resources */,
@@ -270,6 +269,7 @@
 		80C2AAFB26AAC3DD00805D5F /* Environments */ = {
 			isa = PBXGroup;
 			children = (
+				80BD983E26A4703800443899 /* Info.plist */,
 			);
 			path = Environments;
 			sourceTree = "<group>";
@@ -727,7 +727,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SFYUBPZ6J;
-				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_FILE = GBShop/Environments/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -747,7 +747,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SFYUBPZ6J;
-				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_FILE = GBShop/Environments/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
