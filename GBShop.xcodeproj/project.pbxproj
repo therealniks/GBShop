@@ -24,6 +24,8 @@
 		807E04CB26C2BD270029709D /* ResponseCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807E04CA26C2BD270029709D /* ResponseCodableTests.swift */; };
 		80A23EF826C54D7D00A08B45 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A23EF726C54D7D00A08B45 /* Product.swift */; };
 		80A23EFA26C54DBD00A08B45 /* ProductResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A23EF926C54DBD00A08B45 /* ProductResult.swift */; };
+		80A23F0026C54E9A00A08B45 /* GoodsRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A23EFF26C54E9A00A08B45 /* GoodsRequestFactory.swift */; };
+		80A23F0226C5549500A08B45 /* Goods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A23F0126C5549500A08B45 /* Goods.swift */; };
 		80BD983126A4703200443899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983026A4703200443899 /* AppDelegate.swift */; };
 		80BD983326A4703200443899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983226A4703200443899 /* SceneDelegate.swift */; };
 		80BD983526A4703200443899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD983426A4703200443899 /* ViewController.swift */; };
@@ -74,6 +76,8 @@
 		807E04CA26C2BD270029709D /* ResponseCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCodableTests.swift; sourceTree = "<group>"; };
 		80A23EF726C54D7D00A08B45 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		80A23EF926C54DBD00A08B45 /* ProductResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResult.swift; sourceTree = "<group>"; };
+		80A23EFF26C54E9A00A08B45 /* GoodsRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsRequestFactory.swift; sourceTree = "<group>"; };
+		80A23F0126C5549500A08B45 /* Goods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goods.swift; sourceTree = "<group>"; };
 		80BD982D26A4703200443899 /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BD983026A4703200443899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80BD983226A4703200443899 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,8 +140,8 @@
 		8025E3CB26B6C4710012429A /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				8025E3CC26B6C4830012429A /* AuthRequestFactory.swift */,
-				8025E3CE26B6C4BD0012429A /* Auth.swift */,
+				80A23EFE26C54E7700A08B45 /* Goods */,
+				80A23EFD26C54E7200A08B45 /* Auth */,
 				8025E3D026B6C8130012429A /* RequestFactory.swift */,
 			);
 			path = Network;
@@ -172,6 +176,24 @@
 			children = (
 				80A23EF726C54D7D00A08B45 /* Product.swift */,
 				80A23EF926C54DBD00A08B45 /* ProductResult.swift */,
+			);
+			path = Goods;
+			sourceTree = "<group>";
+		};
+		80A23EFD26C54E7200A08B45 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8025E3CC26B6C4830012429A /* AuthRequestFactory.swift */,
+				8025E3CE26B6C4BD0012429A /* Auth.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		80A23EFE26C54E7700A08B45 /* Goods */ = {
+			isa = PBXGroup;
+			children = (
+				80A23EFF26C54E9A00A08B45 /* GoodsRequestFactory.swift */,
+				80A23F0126C5549500A08B45 /* Goods.swift */,
 			);
 			path = Goods;
 			sourceTree = "<group>";
@@ -570,11 +592,13 @@
 				80BD983526A4703200443899 /* ViewController.swift in Sources */,
 				80BD983126A4703200443899 /* AppDelegate.swift in Sources */,
 				8025E3C826B6C3EE0012429A /* LoginResult.swift in Sources */,
+				80A23F0026C54E9A00A08B45 /* GoodsRequestFactory.swift in Sources */,
 				8025E3D326B6CA780012429A /* LogoutResult.swift in Sources */,
 				80BD983326A4703200443899 /* SceneDelegate.swift in Sources */,
 				80A23EFA26C54DBD00A08B45 /* ProductResult.swift in Sources */,
 				8025E3CA26B6C4150012429A /* User.swift in Sources */,
 				8025E3BE26B6BBFA0012429A /* AbstractErrorParser.swift in Sources */,
+				80A23F0226C5549500A08B45 /* Goods.swift in Sources */,
 				8025E3CF26B6C4BD0012429A /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

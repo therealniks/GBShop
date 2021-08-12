@@ -15,11 +15,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let auth = requestFactory.makeAuthRequestFatory()
+        let goods = requestFactory.makeGoodsRequestFactory()
+        
+        
+        //MARK: - Auth
         
         auth.login(userName: "Somebody", password: "mypassword") { response in
             switch response.result {
             case .success(let login):
                 print(login)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+        
+        //MARK: - Goods
+        
+        goods.getProduct(for: 123) { response in
+            switch response.result {
+            case .success(let product):
+                print(product)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+        
+        goods.getCatalog(page: 1, category: 1) { response in
+            switch response.result {
+            case .success(let product):
+                print(product)
             case .failure(let error):
                 print(error.localizedDescription)
             }
